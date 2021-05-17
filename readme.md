@@ -31,3 +31,10 @@ Parse -> Abstract Syntax Tree.
 node --trace-opt filename.js | grep add
 ndoe --trace-opt --trace--deopt filename.js | grep
 node --allow-natives-syntax filename.js
+node --trace-turbo-inlining filename.js
+
+monomorphism
+polymorphism
+megamorphism
+
+hidden class
