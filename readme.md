@@ -38,3 +38,19 @@ polymorphism
 megamorphism
 
 hidden class
+
+style calculation ->
+
+1. which rules apply to which element.
+2. end result of an element with multiple rules.
+
+layout and reflow
+change in geometry -> reflow -> blocking operation.
+force synchronous layout -> layout thrashing.
+fastdom -> measure and mutate
+
+thread ->
+
+1. UI thread
+2. The Renderer thread
+3. The Compositor thread
