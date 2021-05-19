@@ -49,8 +49,23 @@ change in geometry -> reflow -> blocking operation.
 force synchronous layout -> layout thrashing.
 fastdom -> measure and mutate
 
-thread ->
+# thread ->
 
 1. UI thread
 2. The Renderer thread
 3. The Compositor thread
+
+Latency And Bandwith
+
+TCP
+
+## http caching
+
+1.  Cache Missing
+2.  Stale
+3.  Valid
+
+Content Accessable Storage
+Caching for CDN
+
+Lazy-loading and pre-loading
